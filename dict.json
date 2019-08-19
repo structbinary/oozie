@@ -1,0 +1,18 @@
+{
+	'GAVR': {
+		'hdfs_path': '/user/hue/oozie/workspaces/hue-oozie-1559911282.14/lib',
+		'source_jar': 'xspark-core-1.1.610.1.jar'
+	},
+	'SHELL': {
+		'source_artifact': '/user/cloudera/examples/apps/shell/shell.sh',
+		'hdfs_path': '/user/hue/oozie/workspaces/hue-oozie-1560156798.85/lib'
+	},
+	'HIVE': {
+		'source_artifact': '/user/cloudera/examples/apps/hive/script.ql',
+		'hdfs_path': '/user/hue/oozie/workspaces/hue-oozie-1560156798.85/lib'
+	},
+	'PIG': {
+		'source_artifact': '/user/cloudera/demo/workflows/projectname/appname/pigscript/id.pig',
+		'hdfs_path': '/user/hue/oozie/workspaces/hue-oozie-1560155802.35/lib'
+	}
+}

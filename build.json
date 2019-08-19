@@ -1,0 +1,26 @@
+{
+	"/home/cdhadmin/gitrepo/1/s/oozie-repository/coordinators/projectname/appname1/ParentSchedule1.json": {
+		"SHELL": {
+			"hdfs_path": "/user/cloudera/examples/apps/shell/shell.sh",
+			"source_path": "/home/cdhadmin/gitrepo/1/s/oozie-repository/workflows/projectname/appname1/shellscripts/shell.sh"
+		},
+		"HIVE": {
+			"hdfs_path": "/user/cloudera/examples/apps/hive/script.ql",
+			"source_path": "/home/cdhadmin/gitrepo/1/s/oozie-repository/workflows/projectname/appname1/hivescripts/script.ql"
+		},
+		"PIG": {
+			"hdfs_path": "/user/cloudera/demo/workflows/projectname/appname/pigscript/id.pig",
+			"source_path": "/home/cdhadmin/gitrepo/1/s/oozie-repository/workflows/projectname/appname1/pigscripts/id.pig"
+		}
+	},
+	"/home/cdhadmin/gitrepo/1/s/oozie-repository/coordinators/projectname/appname2/ParentSchedule2.json": {
+		"HIVE": {
+			"hdfs_path": "/user/cloudera/examples/apps/hive/script.ql",
+			"source_path": "/home/cdhadmin/gitrepo/1/s/oozie-repository/workflows/projectname/appname1/hivescripts/script.ql"
+		},
+		"PIG": {
+			"hdfs_path": "/user/cloudera/demo/workflows/projectname/appname/pigscript/id.pig",
+			"source_path": "/home/cdhadmin/gitrepo/1/s/oozie-repository/workflows/projectname/appname1/pigscripts/id.pig"
+		}
+	}
+}
